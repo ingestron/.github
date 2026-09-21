@@ -1,0 +1,20 @@
+{
+  "brand": "Ingestron Modular Print",
+  "version": "1.1.0",
+  "sourceOwner": "ingestron-web",
+  "sourcePath": "brand/modular-print-v1",
+  "assets": [
+    {
+      "path": "logos/lockup-horizontal-reverse.svg",
+      "sha256": "53ab628532cde0baf29f704f0782478e2e9ac37eafb57a795c9447401026e7f2"
+    },
+    {
+      "path": "logos/app-icon.svg",
+      "sha256": "2b78033330ba34a4178367b71d129b9ac43d29e79b643c75be8f5287bb4b80df"
+    },
+    {
+      "path": "tokens.css",
+      "sha256": "d261ac7c1d9c51d6b40a27e7a8f39c6f69f6929bc03d7c2eabf17ccde274af3a"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="512"
+  height="512"
+  viewBox="0 0 512 512"
+  role="img"
+  aria-labelledby="logos-app-icon-title logos-app-icon-desc"
+>
+  <title id="logos-app-icon-title">Ingestron</title>
+  <desc id="logos-app-icon-desc">
+    Square application icon; intentional aubergine background.
+  </desc>
+  <rect
+    x="0"
+    y="0"
+    width="512"
+    height="512"
+    rx="96"
+    fill="#301336"
+    stroke="none"
+    stroke-width="1.5"
+  />
+  <g transform="translate(92 78) scale(3.72)">
+    <g transform="translate(3 2)">
+      <path
+        fill="#FCF9F2"
+        d="M0 91L0 17Q0 12 5 12L43 12Q48 12 48 17L48 39Q48 44 43 44L29 44Q24 44 24 49L24 91Q24 96 19 96L5 96Q0 96 0 91Z"
+      />
+      <path
+        fill="#FCF9F2"
+        d="M62 53L62 51Q62 46 67 46L89 46Q94 46 94 51L94 91Q94 96 89 96L43 96Q38 96 38 91L38 63Q38 58 43 58L57 58Q62 58 62 53Z"
+      />
+      <rect x="62" y="0" width="32" height="32" rx="5" fill="#FF4B23" />
+    </g>
+  </g>
+</svg>
