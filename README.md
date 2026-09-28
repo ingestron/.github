@@ -3,9 +3,10 @@
 This repository owns the public GitHub organisation overview at
 https://github.com/ingestron. GitHub renders `profile/README.md` from `main`.
 
-Brand assets derive from the approved Ingestron Modular Print 1.1.0 pack.
-`profile/assets/provenance.json` records original source identities. SVG sources
-remain editable; PNG exports make the profile reliable across GitHub clients.
+Brand assets are PNG exports of Ingestron brand v2, rendered from the private
+brand source in `ingestron-web` with `scripts/render-github.mjs`.
+`profile/assets/provenance.json` records the source files and their hashes.
+Product version numbers are not shown here; the documentation carries them.
 
 Run `python3 scripts/check.py` before publishing. Review the actual GitHub overview
 after merging, including image layout and links. No application runtime, account
