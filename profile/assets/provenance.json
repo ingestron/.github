@@ -1,9 +1,19 @@
 {
-  "brand": "Ingestron Modular Print",
-  "version": "1.1.0",
+  "brand": "Ingestron brand v2",
+  "version": "2.0.0",
   "sourceOwner": "ingestron-web",
-  "sourcePath": "brand/modular-print-v1",
+  "sourcePath": "brand/ingestron-v2",
+  "renderer": "scripts/render-github.mjs",
+  "howItWorksSource": "https://ingestron.io/#how-it-works",
   "assets": [
+    {
+      "path": "github-hero.html",
+      "sha256": "1973df62d89a5e34fb69d3be436d782f83fa64cacd548f43b92fc43cfe3e53af"
+    },
+    {
+      "path": "logos/lockup-horizontal-primary.svg",
+      "sha256": "c4d0ff321d8dd3c15ae7cc3c28b09892248748e26abd35a0a47572810b96c828"
+    },
     {
       "path": "logos/lockup-horizontal-reverse.svg",
       "sha256": "53ab628532cde0baf29f704f0782478e2e9ac37eafb57a795c9447401026e7f2"
@@ -14,7 +24,7 @@
     },
     {
       "path": "tokens.css",
-      "sha256": "d261ac7c1d9c51d6b40a27e7a8f39c6f69f6929bc03d7c2eabf17ccde274af3a"
+      "sha256": "1d3dcaffcf8caedc35d333c887bc75b24794f21ed0c0981ccc57ee7cff9f74b7"
     }
   ]
 }
