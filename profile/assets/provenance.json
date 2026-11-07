@@ -1,30 +1,62 @@
 {
-  "brand": "Ingestron brand v2",
-  "version": "2.0.0",
-  "sourceOwner": "ingestron-web",
-  "sourcePath": "brand/ingestron-v2",
-  "renderer": "scripts/render-github.mjs",
-  "howItWorksSource": "https://ingestron.io/#how-it-works",
+  "brand": "Ingestron brand (Air + Close-knit)",
+  "sourceOwner": "the Ingestron brand repository (private)",
+  "sourceCommit": "10e2f1334ac02170fbc51d6702e59ffd570b5fa9",
+  "renderer": "profile/*.html rendered by scripts/render-profile.mjs in that repository",
+  "sources": [
+    {
+      "path": "logo/ingestron-lockup-primary.svg",
+      "sha256": "906749459b8ec50242444a1e38ab6613ca4f201c203f35213f7cdeff339eb199"
+    },
+    {
+      "path": "logo/ingestron-lockup-reverse.svg",
+      "sha256": "87eb5d5e4b1ff9f23050ebc4c1153d660630699e12a9575b7e6e3921bdd0ceaa"
+    },
+    {
+      "path": "logo/ingestron-primary.svg",
+      "sha256": "5cb93b0cd2e426e4d5bbfa5246e84857c1293b024d66865e898fc2a6007c0687"
+    },
+    {
+      "path": "logo/ingestron-reverse.svg",
+      "sha256": "f1555276962da5a1e80c181dd3c34ba9e1ce5b6d1ab16eec2dbb89d5dcb8c23e"
+    },
+    {
+      "path": "tokens/ingestron.css",
+      "sha256": "71b8bca866b6313212efa5c9d84ab8eb6141f008c68859008b0f058e7d535c1e"
+    },
+    {
+      "path": "icons/ingestron-icon.svg",
+      "sha256": "d36751909716748386120a9edc6d81ca0fddc19c304e4e7397c75de200d9d665"
+    },
+    {
+      "path": "icons/ingestron-icon-512.png",
+      "sha256": "0740d28dc9359ad2cf3cdca1c6853a2b34a9e91e0022f4a66f812df2f764c6ba"
+    }
+  ],
   "assets": [
     {
-      "path": "github-hero.html",
-      "sha256": "1973df62d89a5e34fb69d3be436d782f83fa64cacd548f43b92fc43cfe3e53af"
+      "path": "avatar.png",
+      "sha256": "0740d28dc9359ad2cf3cdca1c6853a2b34a9e91e0022f4a66f812df2f764c6ba"
     },
     {
-      "path": "logos/lockup-horizontal-primary.svg",
-      "sha256": "c4d0ff321d8dd3c15ae7cc3c28b09892248748e26abd35a0a47572810b96c828"
+      "path": "avatar.svg",
+      "sha256": "d36751909716748386120a9edc6d81ca0fddc19c304e4e7397c75de200d9d665"
     },
     {
-      "path": "logos/lockup-horizontal-reverse.svg",
-      "sha256": "53ab628532cde0baf29f704f0782478e2e9ac37eafb57a795c9447401026e7f2"
+      "path": "files-dark.png",
+      "sha256": "3797f560981740ffbf6c9837519877bcb413d9af68178a7b51b4ac83c8341358"
     },
     {
-      "path": "logos/app-icon.svg",
-      "sha256": "2b78033330ba34a4178367b71d129b9ac43d29e79b643c75be8f5287bb4b80df"
+      "path": "files-light.png",
+      "sha256": "5dac859a722f5b00fbc70fdaa1e918d3376a76b8188bcfd8ab79869238904a9f"
     },
     {
-      "path": "tokens.css",
-      "sha256": "1d3dcaffcf8caedc35d333c887bc75b24794f21ed0c0981ccc57ee7cff9f74b7"
+      "path": "hero-dark.png",
+      "sha256": "1f6bf2ba7d110546172b279f8dc8ed6ba4120e38451eab596b6c02aea7437e47"
+    },
+    {
+      "path": "hero-light.png",
+      "sha256": "5d6a7ff8bd5db57b66986b00575fa0ce2a44e5b52c08ad54442331e7a92a2da2"
     }
   ]
 }
